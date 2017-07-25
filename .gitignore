@@ -1,0 +1,27 @@
+# exclude build directory
+build
+
+# exclude OS X folder attributes
+.DS_Store
+
+# exclude swap files and temp nibs
+*.swp
+*~.nib
+
+# exclude user-specific xcode files
+xcuserdata
+*.mode1
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.pbxuser
+*.xcworkspace
+*.pbxuser
+
+#exclude ideafile, for those who keep them
+.idea
+
+# exclude pod build files
+Pods/BuildHeaders
+Pods/Documentation
+
